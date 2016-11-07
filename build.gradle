@@ -12,7 +12,7 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = 'com.itraveled.entities.User'
+mainClassName = 'com.itraveled.ITraveled'
 
 // In this section you declare where to find the dependencies of your project
 repositories {

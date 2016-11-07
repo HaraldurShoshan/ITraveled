@@ -25,4 +25,29 @@ public class User
 	{
 		return userId;
 	}
+
+	public void setId(int id)
+	{
+		userId = id;
+	}
+
+	public String getName()
+	{
+		return userName;
+	}
+
+	public void setName(String name)
+	{
+		userName = name;
+	}
+
+	public String getPassword()
+	{
+		return password;
+	}
+
+	public void setPassword(String pass)
+	{
+		password = pass;
+	}
 }
