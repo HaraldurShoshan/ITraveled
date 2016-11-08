@@ -11,7 +11,8 @@
         <nav class="navbar navbar-inverse myNavBar">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">ITraveled</a>
+                    <a class="navbar-brand" id="logo" href="#">ITraveled</a>
+                    <a class="navbar-brand hidden" id="usrLogo" href="#">User</a>
                 </div>
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#"> Home </a></li>
@@ -21,10 +22,31 @@
                 </ul>
             </div>
         </nav>
+        <div class="container" id="users">
+            <form method="post" id="userForm" action="/loginUser" class="form-inline" role="form">
+                <div class="row">
+                    <div class="col-xs-4"></div>
+                    <div class="col-xs-4">
+                        <input type="text" class="form-control login" id="userName" placeholder="User name">
+                        <input type="password" class="form-control" id="userPass" placeholder="Password">
+                        <button type="submit" class="btn btn-success btnStyle" id="userBtn">Login</button>
+                    </div>
+                    <div class="col-xs-4"></div>
+                </div>
+            </form> 
+        </div>
 
-        
-        <!-- Load jquery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="iTraveled.js"></script>
-    </body>
-</html>
+        <div class="container " id="indexWindow">
+            <div class="row">
+                <div class="col-xs-4"></div>
+                <div class="col-xs-4">
+                </div>
+                <div class="col-xs-4"></div>
+            </div>
+        </div>
+            
+            <!-- Load jquery -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+            <script src="iTraveled.js"></script>
+        </body>
+    </html>
