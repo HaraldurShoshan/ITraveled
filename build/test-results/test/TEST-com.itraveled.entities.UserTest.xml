@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.itraveled.entities.UserTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-11-08T11:27:04" hostname="Haraldurs-MacBook-Pro.local" time="0.004">
+<testsuite name="com.itraveled.entities.UserTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-11-08T11:49:13" hostname="Haraldurs-MacBook-Pro.local" time="0.007">
   <properties/>
   <testcase name="testSetPassword" classname="com.itraveled.entities.UserTest" time="0.002"/>
-  <testcase name="testGetPassword" classname="com.itraveled.entities.UserTest" time="0.001"/>
-  <testcase name="testGetId" classname="com.itraveled.entities.UserTest" time="0.0"/>
+  <testcase name="testGetPassword" classname="com.itraveled.entities.UserTest" time="0.0"/>
+  <testcase name="testGetId" classname="com.itraveled.entities.UserTest" time="0.001"/>
   <testcase name="testSetId" classname="com.itraveled.entities.UserTest" time="0.0"/>
-  <testcase name="testGetName" classname="com.itraveled.entities.UserTest" time="0.0"/>
+  <testcase name="testGetName" classname="com.itraveled.entities.UserTest" time="0.001"/>
   <testcase name="testSetName" classname="com.itraveled.entities.UserTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
